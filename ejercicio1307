@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Uso de Inputs en HTML</title>
+	<style>
+		body{
+			background-color: aliceblue;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Uso Inputs en HTML</h1>
+	<p>Ingrese Nombres: </p>
+	<input type="text" name="nombres">
+	<p>Ingrese Apellidos: </p>
+	<input type="text" name="apellidos">
+	<p>Género:</p>
+	<input type="radio" name="fem">Femenino<br>
+	<input type="radio" name="masc">Masculino<br>
+	Fecha de nacimiento: <input type="date" name=""><br>
+
+	- Numero de telefono
+	- Dirección
+	- No. DPI
+</body>
+</html>
